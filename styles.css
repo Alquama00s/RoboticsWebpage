@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url("");
+    background-position: center;
+    max-width: 100%;
+
+}
+
+header {
+    padding: 5px;
+
+    
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+    align-items: center;
+    margin: auto;
+}
+
+.Navbar-Logo {
+    width: 10%;
+    background-color: none;
+}
+
+.nav-items {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-items li {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.nav-items li a {
+    color: rgba(68, 158, 199, 1);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-items li a:hover {
+    color: rgba(68, 158, 199, 0.6);
+}
+
+
+.contact-button {
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgba(68, 158, 199, 1);
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.contact-button:hover {
+    background-color: rgba(68, 158, 199, 0.8);
+
+}
+.forum-button{
+    color: #ffffff;
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 5px;
+    background-color:rgba(68,158,199,1);
+   
+}
+.forum-button:hover{
+    background-color:rgba(68,158,199,0.8);
+}
+.writeupEven{
+    position: absolute;
+    left: 5%;
+    right: 50%;
+    font-size: 2em;
+    margin: 15px 0px 15px 0px;
+
+}
+.illustrationEven{
+    position: relative;
+    left: 50%;
+    right: 0px;
+    height: 60%;
+    width: 50%;
+    margin: 15px 0px 15px 0px;
+}
+.writeupOdd{
+    position: absolute;
+    left: 55%;
+    right: 10px;
+    font-size: 2em;
+    margin: 15px 0px 15px 0px;
+
+}
+.illustrationOdd{
+    position: relative;
+    left: 5px;
+    right: 50%;
+    height: 60%;
+    width: 50%;
+    margin: 15px 0px 15px 0px;
+}
+
+.writeupForoum{
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    right: 10px;
+    font-size: 2em;
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+    
+}
+.footer{
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: #85929E;
+    color: #ffffff;
+}
