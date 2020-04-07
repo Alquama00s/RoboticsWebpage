@@ -11,45 +11,75 @@
 </head>
 
 <body>
-
-
-    <header>
-        <!-- NavBar -->
-        <nav>
-            <img src="./Images/logo.png" alt="Logo" class="Navbar-Logo">
-            <ul class="nav-items">
-                <li><a href="#">Achievements</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Registration</a></li>
-            </ul>
-            <button class="contact-button">Contact Us</button>
-        </nav>
+    <header class="header">
+        <a href="/home" class="logo"><img src="./Images/logo.png" class="logoPic"/><span class="logoText">ROBOTICS SOCIETY | KGEC</span></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menuNav">
+            <li><a href="/achievements">ACHIEVEMENTS</a></li>
+            <li><a href="/evevnts">EVENTS</a></li>
+            <li><button class="forum-button" onclick="window.location.href='/foroum'">Forum</button></li>
+        </ul>
+        
+        <ul class="menu">
+            <li><a href="/ongoing-projects"><span>ONGOING PROJECTS</span></a></li>
+            <div class="hide"><li ><a href="/achievements" ><span>ACHIEVEMENTS</span></a></li>
+            <li><a href="/events"><span>EVENTS</span></a></li>
+            <li><a href="/foroum"><span>FOROUM</span></a></li></div>
+            <li><a href="/contact"><span>GET IN TOUCH</span></a></li>
+            <li><a href="/admin"><span>SITE ADMIN</span></a></li>
+        </ul>
+        
     </header>
-    <div>
-        <div class="writeupForoum">
-            
-            <h1> Come and join our forum !</h1>
-            <button class="forum-button">FORUM</button>
-            
+    
+        
+    <div class="carosel">
+        
+    
+   
+        <div class="caroWrite">
+                
+            <img src="images/ilt2.png"class="caropic" >
+            <span class="writeupForoum">
+                
+                <h1> Come and join our journey !</h1>
+                <button class="forum-button" href="/contact">Join Us</button>
+                
+            </span>  
         </div>
-            
-        </div>
-        <img src="images/ilt2.png" class="illustrationOdd" >
-    <div>
-    <div class="writeupEven">
-        <h1>About Us</h1>
-        <p>
-            Robotics Society KGEC is amkjn active community of people striving towards a future where ideas are nurtured and engineering is imbibed. 
-        </p>
     </div>
-        <img src="images/il1.svg" class="illustrationEven" >
-    </div>
-    <footer>
-        <div class="footer">
-            <a href="#">Facebook</a>
-            <a href="#">Youtube</a>
+    <div class="afterBody">
+        <div class="homeBar">
+            <span class="writeupEven">
+                <h1>About Us</h1>
+                <p>
+                Robotics Society KGEC is amkjn active community of people striving towards a future where ideas are nurtured and engineering is imbibed. 
+                </p>
+            </span>
+            <img src="images/il1.svg" class="illustrationEven" >
+            
         </div>
-    </footer>
+        <div class="homeBar">
+            <span class="writeupOdd">
+                <h1>About Us</h1>
+                <p>
+                Robotics Society KGEC is amkjn active community of people striving towards a future where ideas are nurtured and engineering is imbibed. 
+                </p>
+            </span>
+            <img src="images/il1.svg" class="illustrationOdd" >
+            
+        </div>
+        <div id="footer">
+                <ul class="footeritems"> 
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+        </div>
+        <div id="bottomLine"><b>© Robotics Society </b> | All Rights Reserved</div>
+    </div> 
+    
+
+   
     <script src="index.js"></script>
 </body>
 
