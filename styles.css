@@ -313,7 +313,7 @@ a{
     font-size: 15px;
 }
 
-@media(max-width:800px){
+@media(max-width:800px) and (orientation:portrait){
     body {
         background-image: url("");
         background-position: center;
@@ -341,7 +341,7 @@ a{
         display:flex;
         background-image: url("./Images/car.jpg");
         position: absolute;
-        width: 50%;
+        width: 100%;
         top:0;
         left:0;
         height: 100%;
