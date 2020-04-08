@@ -322,6 +322,21 @@ a{
     
     }
         /*navbar*/
+        .header{
+            background-color:rgba(0,0,0,0.3);
+            box-shadow:0px 1px 20px 1px rgba(0,0,0,0.8);
+            position:fixed;
+            width:100%;
+            z-index:3;
+        
+        }
+        .header .logo .logoText{
+            position: fixed;
+            top: 20px;
+            left: 100px;
+            font-size: 1.5em;
+            width: 40%;
+        }
     .header .menuNav{
         display: none;
         float: right;
@@ -337,6 +352,24 @@ a{
     }
     /*nav bar end*/
     /*carosel*/
+    .forum-button{
+        color:rgba(0,0,0,1);
+        padding: 7px 40px;
+        border:1px solid white;
+        border-radius: 5px;
+        background-color:rgba(255,255,255,0.5);
+        font-size: 1em;
+        margin: 10% 0% 0% 0%;
+        transition: 0.55s;
+       
+    }
+    .forum-button:hover{
+        animation: backColor 2s ease-out;
+        color: #ffffff;
+        background-color:rgba(68,158,199,0.8);
+        border: 1px solid rgba(68, 158, 199, 0.8);
+        cursor: pointer;
+    }
     .carosel{
         display:flex;
         background-image: url("./Images/car.jpg");
@@ -357,6 +390,7 @@ a{
         text-align: center;
     }
     .caropic{
+        display: none;
         position: absolute;
         top: 0px;
         left: 0%;
