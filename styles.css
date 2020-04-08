@@ -314,6 +314,13 @@ a{
 }
 
 @media(max-width:800px){
+    body {
+        background-image: url("");
+        background-position: center;
+        max-width: 100%;
+        overflow-x: hidden;
+    
+    }
         /*navbar*/
     .header .menuNav{
         display: none;
